@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:van_anime/views/example_one.dart';
+import 'package:van_anime/views/example_three.dart';
+import 'package:van_anime/views/exmaple_two.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: const ExampleOne(),
+      home: const ExampleThree(),
     );
   }
 }
