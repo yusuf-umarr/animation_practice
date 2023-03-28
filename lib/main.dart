@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:van_anime/views/example_four.dart';
 import 'package:van_anime/views/example_one.dart';
 import 'package:van_anime/views/example_three.dart';
 import 'package:van_anime/views/exmaple_two.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: const ExampleThree(),
+      home: const ExampleFour(),
     );
   }
 }
