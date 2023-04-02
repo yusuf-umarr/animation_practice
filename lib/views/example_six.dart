@@ -32,7 +32,7 @@ class _ExampleSixState extends State<ExampleSix> {
           ),
           onEnd: () {
             setState(() {
-              _color = getRandomColor();
+              _color = getRandomColor(); 
             });
           },
           builder: (BuildContext context, Color? color, Widget? child) {
